@@ -1,0 +1,51 @@
+.CoinContainer {
+  color: #333;
+  font-weight: bold;
+}
+
+.CoinContainer button {
+  background-color: #baa7a1;
+  border: none;
+  border-radius: 0.25em;
+  padding: 0.5em 2em;
+  margin-top: 1em;
+  font-weight: inherit;
+  transition: all ease 500ms;
+}
+
+.CoinContainer button:active {
+  transform: scale(0.95);
+}
+
+.CoinContainer button:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 25px, rgba(0, 0, 0, 0.22) 0px 6px 8px;
+}
+
+.total-flips {
+  font-size: 22px;
+  color: black;
+}
+.total-flips b {
+  font-size: 22px;
+  color: rgb(180, 8, 8);
+}
+
+.total-tails {
+  font-size: 22px;
+  color: black;
+}
+
+.total-tails b {
+  font-size: 22px;
+  color: rgb(180, 8, 8);
+}
+
+.total-heads {
+  font-size: 22px;
+  color: black;
+}
+
+.total-heads b {
+  font-size: 22px;
+  color: rgb(180, 8, 8);
+}
